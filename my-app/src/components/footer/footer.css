@@ -10,6 +10,6 @@
 .footer__container {
   display: flex;
   justify-content: center;
-  padding: 1rem;
+  padding: 1.2rem;
   color: aliceblue;
 }
