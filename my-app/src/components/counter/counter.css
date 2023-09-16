@@ -22,17 +22,19 @@
 
 .counter__btn {
   padding-top: 2rem;
+  display: flex;
 }
 
 .counter__btn button {
   background-color: rgb(45, 45, 44);
   color: aliceblue;
   border: none;
-  width: 6rem;
+  width: 7rem;
   height: 2.5rem;
   border-radius: 0.7rem;
   font-size: 1rem;
   cursor: pointer;
+  margin: 0 .5rem;
 }
 
 .counter__btn button:hover {
