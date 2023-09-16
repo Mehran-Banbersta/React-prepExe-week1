@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Count from "../Count";
-import Button from "../Button";
+import ButtonInc from "../ButtonInc";
+import ButtonDec from "../ButtonDec";
 import "./counter.css";
 
 function Counter() {
@@ -8,6 +9,11 @@ function Counter() {
 
   const increment = () => {
     setCount(count + 1);
+  };
+  const decrement = () => {
+    if (count > 0) {
+      setCount(count - 1);
+    }
   };
   const feedback = count > 10 ? "It's higher than 10!" : "Keep counting...";
 
@@ -23,7 +29,8 @@ function Counter() {
         </div>
       </div>
       <div className="counter__btn">
-        <Button increment={increment} />
+        <ButtonInc increment={increment} />
+        <ButtonDec decrement={decrement} />
       </div>
     </div>
   );
