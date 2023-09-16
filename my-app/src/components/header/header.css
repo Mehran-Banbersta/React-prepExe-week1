@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
+  padding: 2rem;
+  background-color: rgb(45, 45, 44);
+  color: aliceblue;
+}
+
+.header__logo__hyf {
+  color: #0cfe00;
+}

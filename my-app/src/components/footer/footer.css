@@ -1,0 +1,15 @@
+.footer {
+  background-color: rgb(45, 45, 44);
+  border-top: 2px solid #0cfe00;;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  color: aliceblue;
+}
